@@ -1,0 +1,97 @@
+# stock-price-prediction-lstm
+This project predicts stock price trends using LSTM deep learning models. Historical data is collected from Yahoo Finance and processed with technical indicators like Moving Average and RSI. The system visualizes actual vs predicted prices to help analyze stock market trends.
+Overview
+
+This project predicts stock price trends using Long Short-Term Memory (LSTM) neural networks. Historical stock data is collected from Yahoo Finance, preprocessed, and used to train a deep learning model that forecasts future price movements and visualizes actual vs predicted trends.
+
+Objectives
+
+Collect historical stock price data
+
+Preprocess and normalize time-series data
+
+Build and train an LSTM-based deep learning model
+
+Predict future stock price trends
+
+Visualize actual vs predicted stock prices
+
+🛠️ Technologies Used
+
+Python
+
+TensorFlow / Keras
+
+NumPy, Pandas
+
+Scikit-learn
+
+Matplotlib
+
+Yahoo Finance API (yfinance)
+
+Google Colab
+
+ Project Structure
+ stock-price-trend-prediction-lstm
+│── stock_prediction.ipynb
+│── lstm_stock_model.keras
+│── README.md
+
+ Methodology
+
+Data Collection – Fetch historical stock data using Yahoo Finance
+
+Preprocessing – Handle missing values and normalize data
+
+Feature Engineering – Use technical indicators like Moving Average and RSI
+
+Model Building – LSTM neural network with dropout layers
+
+Training – Train model using historical data
+
+Prediction – Forecast stock price trends
+
+Visualization – Plot actual vs predicted prices
+
+ How to Run (Google Colab)
+
+Open Google Colab
+
+Upload stock_prediction.ipynb
+
+Run all cells sequentially
+
+The model will train and display prediction graphs
+
+Saved model file: lstm_stock_model.keras
+
+Results
+
+The LSTM model learns historical price patterns and predicts future trends with good accuracy. The prediction curve closely follows actual stock prices, demonstrating effective time-series learning.
+
+ Limitations
+
+Market volatility affects prediction accuracy
+
+External factors like news and sentiment are not considered
+
+Best suited for trend prediction, not exact prices
+
+ Future Scope
+
+Integrate news and sentiment analysis
+
+Deploy using Streamlit web dashboard
+
+Add more technical indicators
+
+Extend to cryptocurrency and forex markets
+
+ References
+
+Yahoo Finance API
+
+TensorFlow & Keras Documentation
+
+Research papers on LSTM time-series forecasting
